@@ -1,5 +1,10 @@
 import scala.util.control.Breaks._
 
+/** Bubble sort.
+  *
+  * @param array array to be sorted
+  * @return sorted array in ascending order
+  */
 class Bubble {
   def bubble(array: Array[Int]): Array[Int] = {
 
